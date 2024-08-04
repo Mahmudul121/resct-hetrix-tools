@@ -1,1 +1,53 @@
-@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";
+
+.hh-1 {
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--grey);
+}
+
+.hh-2 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.pp-1 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--secondary-black);
+}
+
+.pp-2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #838383;
+}
+
+.home-block {
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.main-title-sub {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    color: #838383;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #2c2c2c;
+  }
+}

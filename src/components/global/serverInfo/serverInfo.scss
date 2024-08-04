@@ -1,0 +1,29 @@
+.server-left-block {
+  height: 100%;
+  border-radius: 8px;
+  background-color: #f9f7fd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.server-info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 20px;
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    color: #2c2c2c;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border-radius: 8px;
+    padding: 8px 16px;
+  }
+}
