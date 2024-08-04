@@ -5,6 +5,10 @@ import HomeTop from "./components/global/homeTop/HomeTop";
 import Uptime from "./components/global/uptimeBlock/Uptime";
 import MonitoringBlock from "./components/global/monitoring/MonitoringBlock";
 import ServerInfo from "./components/global/serverInfo/ServerInfo";
+import CpuUsage from "./components/global/cpuUsage/CpuUsage";
+import RamUse from "./components/global/ramUse/RamUse";
+import NetworkUse from "./components/global/networkUse/NetworkUse";
+import DiskUses from "./components/global/diskUses/DiskUses";
 
 const App = () => {
   return (
@@ -53,20 +57,17 @@ const App = () => {
         <MonitoringBlock />
         {/* 4th */}
         <ServerInfo />
-
         {/* 5th */}
-        <h2>CPU Usage</h2>
-        <ul>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-        </ul>
-        <div>
-          <div>
-            <label>asd</label>
-            <h4>asd</h4>
-          </div>
-        </div>
+        <CpuUsage />
+        <Row>
+          <Col md={6}>
+            <RamUse />
+          </Col>
+          <Col md={6}>
+            <NetworkUse />
+          </Col>
+        </Row>
+        <DiskUses />
       </Layout>
     </div>
   );
